@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
+"""This module provides a Server class to paginate a CSV dataset."""
 import csv
 import math
 from typing import List
-""" Pagination """
 
 
 def index_range(page: int, page_size: int) -> tuple:
